@@ -1,0 +1,33 @@
+form .avatar{
+	margin-bottom: 10px;
+	width: 70px;	
+}
+
+.navbar .container-avatar,
+.pub_image .container-avatar{
+	width: 35px;
+	height: 35px;
+	border-radius: 900px;
+	overflow: hidden;
+	margin-left: 15px;
+}
+
+.navbar .container-avatar img,
+.pub_image .container-avatar img{
+	height: 100%;
+	margin-right: 15px;
+
+}
+
+.pub_image .container-avatar{
+	float:left;
+}
+
+.pub-image .data-user{
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.pub_image .nickname{
+	color: gray;
+}
