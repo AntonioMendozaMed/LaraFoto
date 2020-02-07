@@ -41,7 +41,7 @@
                            <img src="{{ asset('img/heart-gray.ico')}}" alt="">
                        </div>
                        <div class="comments ml-5 mb-5">
-                           <a href="" class="btn btn-primary btn-sm">Comentarios ({{ count($image->comments) }})</a>
+                           <a href="" class="btn btn-default btn-sm">Comentarios ({{ count($image->comments) }})</a>
                        </div>
                     </div>
                 </div>

@@ -43,8 +43,12 @@ form .avatar{
 	overflow: hidden;
 }
 
-.image-container img{
+.image-container{
+	/*height: : 100%;
+	max-width: 700px;*/
 	width: 100%;
+	max-height: 200px;
+	overflow: hidden;
 }
 
 .pub_image .card-body{
