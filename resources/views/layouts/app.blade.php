@@ -58,6 +58,9 @@
                             <li class="nav-item">
                                 <a href="{{ route('image.create') }}" class="nav-link">Subir Imágen</a>
                             </li>
+                            <li class="nav-item">
+                                <a href="{{ route('likes') }}" class="nav-link">Favoritas</a>
+                            </li>
                             <li>
                                 &nbsp;&nbsp;
                             </li>
