@@ -19,7 +19,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/style5.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style6.css') }}" rel="stylesheet">
     <!-- <link href="{{ asset('css/style2.css') }}" rel="stylesheet"> -->
 </head>
 <body>
@@ -74,7 +74,8 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="">Mi Perfil</a>
+                                    <a class="dropdown-item" href="{{ route('profile', ['id'=>Auth::user()->id])}}">
+                                    Mi Perfil</a>
                                     <a class="dropdown-item" href="{{ route('config') }}">Configuración</a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();

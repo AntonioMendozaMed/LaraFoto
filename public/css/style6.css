@@ -88,8 +88,8 @@ form .avatar{
 }
 
 .profile-user .container-avatar{
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 140px;
     border-radius: 900px;
     overflow: hidden;
     float:left;

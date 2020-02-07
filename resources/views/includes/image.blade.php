@@ -1,13 +1,13 @@
 <div class="card pub_image">
     <div class="card-header">
         @if($image->user->image)
-            <div class="container-avatar">
-                <img src="{{ route('user.avatar', ['filename'=>$image->user->image]) }}"  />
-            </div>
+          <div class="container-avatar">
+              <img src="{{ route('user.avatar', ['filename'=>$image->user->image]) }}"  />
+          </div>
         @endif
 
         <div class="data-user">
-            <a href="{{ route('image.detail', ['id' => $image->id])}}">
+            <a href="{{ route('profile', ['id' => $image->user->id])}}">
               {{ $image->user->name . ' ' . $image->user->surname }}
               <span class="nickname">
                   {{' | @' . $image->user->nick }} 
